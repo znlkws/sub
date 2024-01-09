@@ -26,9 +26,14 @@ jobs:
       run: |
         yarn install
         yarn build
-        yarn deploy
     - name: Upload
       uses: actions/upload-artifact@v1
       with:
         name: dist
         path: dist/
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4.2.2
+      with:
+        branch: gh-pages
+        folder: dist
+
