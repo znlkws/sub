@@ -292,7 +292,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     // this.notify();
-    this.getBackendVersion();
+    // this.getBackendVersion();
   },
   methods: {
     onCopy() {

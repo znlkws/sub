@@ -2,7 +2,7 @@
   "name": "sub-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://znlkws.github.io/sub",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
