@@ -6,6 +6,7 @@ function resolve(dir) {
 
 module.exports = {
   publicPath: process.env.VUE_APP_BASE_URL + '/' ,
+  productionSourceMap: false,
   css: {
     loaderOptions: {
       less: {
