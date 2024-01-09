@@ -2,10 +2,12 @@
   "name": "sub-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "atob": "^2.1.2",
@@ -13,6 +15,7 @@
     "btoa": "^1.2.1",
     "core-js": "^3.12.1",
     "element-ui": "^2.15.1",
+    "gh-pages": "^6.1.1",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.10",
     "vue-clipboard2": "^0.3.1",
